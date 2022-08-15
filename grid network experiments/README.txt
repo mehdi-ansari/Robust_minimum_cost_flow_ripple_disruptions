@@ -1,4 +1,4 @@
-Each folder contains the code files corresponding to grid network experiments for every subproblem formulation in the section of numerical experiments. The coding files in "LinearModel_BR" are recommended to get to know the code pieces by comments; Other directory are associated with different subproblem formulation as described in the manuscript.
+Each folder contains the code files corresponding to grid network experiments for every subproblem formulation in numerical experiments section. The coding files in "LinearModel_BR" are recommended to get to know the code pieces by comments; Other directory are associated with different subproblem formulation as described in the manuscript.
 
 The results are generated based on data in "grid network instances" folder. Make sure to put the instances in the proper dierctory. 
 
