@@ -1,8 +1,8 @@
-Each folder contains the code files of every subproblem formulation in the numerical experiments of paper. "LinearModel_BR" recommended to get to know properly the pieces of codes by comments; The main difference between experiments is about the solving approach of subproblem.
+Each folder contains the code files for every subproblem formulation in the section of numerical experiments. The coding files in "LinearModel_BR" are recommended to get to know the code pieces by comments; Other directory are associated with different subproblem formulation as described in the manuscript.
 
-Make sure to put the instances of "grid network instances" folder in the root dierctory. 
+The results are generated based on data in "grid network instances" folder. Make sure to put the instances in the proper dierctory. 
 
-The default program is set to generate the instance file name and open them to identify the network structure. But, you can uncomment some pieces of code in the main cpp file (C2plusANDcplex.cpp) to randomly generate a new network structure. In this case, you must remove the main "for" loop over the default instances.
+The default program is set to generate the instance file name and open them to identify the network structure. But, you can comment out some pieces of code in the main cpp file (C2plusANDcplex.cpp) to randomly generate a new network structure. In this case, you must remove the main "for" loop over the default instances.
 
 The results are automatically recorded in ".csv" format in the root directory with this order:
 1.master problem optimal value
