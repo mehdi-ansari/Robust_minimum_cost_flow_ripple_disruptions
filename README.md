@@ -1,1 +1,1 @@
-This code accompanies the paper "Interdicting Low-Diameter Cohesive Subgroups in Large-Scale Social Networks" and is written in C++
+This code accompanies the paper "Robust Minimum-Cost Flow Problems Under Multiple Ripple Effect Disruptions" and is written in C++.
