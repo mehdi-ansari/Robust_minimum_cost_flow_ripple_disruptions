@@ -1,4 +1,12 @@
-Each folder contains the code files corresponding to grid network experiments for every subproblem formulation in numerical experiments section. The coding files in "LinearModel_BR" are recommended to get to know the code pieces by comments; Other directory are associated with different subproblem formulation as described in the manuscript.
+Each folder contains the code files corresponding to grid network experiments for every subproblem formulation in the numerical experiments section:
+  1. LinearModel_BR: Linear Cost Function with Binary Reformulation subproblem
+  2. LinearModel_DF: Linear Cost Function with Decomposed Formulation subproblem
+  3. LinearModel_EF: Linear Cost Function with Extended Formulation subproblem
+  4. LinearModel_PA: Linear Cost Function with Polynomial Algorithm subproblem
+  5. MaxModel_BR: Maximum Cost Function with Binary Reformulation subproblem
+  6. MaxModel_EF: Maximum Cost Function with Extended Formulation subproblem
+
+The coding files in "LinearModel_BR" are recommended to get to know the code pieces by comments; Other directory are associated with different subproblem formulation as described in the manuscript.
 
 The results are generated based on data in "grid network instances" folder. Make sure to put the instances in the proper dierctory. 
 
